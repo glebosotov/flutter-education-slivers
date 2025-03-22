@@ -23,6 +23,6 @@ class FlutterLogoTilesWidget extends StatelessWidget {
   Color _getRandomColor() {
     return Color(
       (Random().nextDouble() * 0xFFFFFF).toInt(),
-    ).withOpacity(0.3);
+    ).withValues(alpha: 0.3);
   }
 }
